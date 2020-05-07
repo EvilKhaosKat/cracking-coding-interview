@@ -24,6 +24,7 @@ type State struct {
 	checked map[Point]int
 }
 
+//TODO usage of pointers will optimize memory allocations
 func main() {
 	grid := [][]int{
 		{0, 0, 0, 0, 0, 0},
